@@ -15,6 +15,7 @@ export class BoardComponent implements OnInit {
 
   ngOnInit() {
     this.newGame();
+    console.log('Game initialized');
   }
 
   // we initialize the game
